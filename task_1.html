@@ -1,93 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Personal Info Table</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        table {
-            width: 80%;
-            margin: 20px auto;
-        }
-        td {
-            padding: 8px;
-        }
-        th {
-            background-color: #523c27;
-        }
-    </style>
-</head>
-<body>
+    <html lang="en">
+        <head>
+            <title>TASK 1</title>
 
-    <h2 style="text-align: center;">My Personal Information</h2>
+            <style>
+                .tbl{
+                    background-color: #FFECDB;
+                    border-style:groove;
+                    padding: 5px;
+                    text-align: center;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
 
-    <table>
-        <tr>
-            <td>Name</td>
-            <td colspan="2">MUHD AMIR SYAHMI BIN ZUBER</td>
-            <td rowspan="4" style="text-align: center;">Photo<br><br><img src="elon_pic.jpeg" alt="Photo" width="100"></td>
-        </tr>
-        <tr>
-            <td>Date of birth</td>
-            <td colspan="2">31/12/2001</td>
-        </tr>
-        <tr>
-            <td>Religion</td>
-            <td colspan="2">Islam</td>
-        </tr>
-        <tr>
-            <td>Race</td>
-            <td colspan="2">Malay</td>
-        </tr>
-        <tr>
-            <td rowspan="4">Address</td>
-            <td>Street</td>
-            <td colspan="2">No.69</td>
-        </tr>
-        <tr>
-            <td>Town</td>
-            <td colspan="2">Batu Pahat</td>
-        </tr>
-        <tr>
-            <td>District</td>
-            <td colspan="2">Parit Raja</td>
-        </tr>
-        <tr>
-            <td>State</td>
-            <td colspan="2">Johor</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Contact</td>
-            <td>Mobile Phone</td>
-            <td colspan="2">012-3456789</td>
-        </tr>
-        <tr>
-            <td>Social Media</td>
-            <td colspan="2">Tiktok</td>
-        </tr>
-        <tr>
-            <td>Website</td>
-            <td colspan="2"><a href="https://www.tiktok.com/@grimjow90" target="_blank">yourwebsite.com</a></td>
-        </tr>
-        <tr>
-            <td>Course and Institution</td>
-            <td colspan="3">Your Course at Institution</td>
-        </tr>
-        <tr>
-            <td>Programming skills</td>
-            <td colspan="3">HTML, CSS, JavaScript, etc.</td>
-        </tr>
-        <tr>
-            <td>Hobbies</td>
-            <td colspan="3">Reading, Coding, Music</td>
-        </tr>
-        <tr>
-            <td>2025 Wishlist</td>
-            <td colspan="3">Your Goals for 2025</td>
-        </tr>
-    </table>
+                #img1{
+                    border: 10px solid transparent;
+                    padding: 15px;
+                }
+            </style>
+        </head>
 
-</body>
+        <body style="background-color: #D4C9BE;">
+            <br>
+            <h1 style="text-align: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                MY INFORMATION
+            </h1>
+
+            <center>
+                <table border="3" class="tbl">
+                    <tr>
+                        <td>Name</td>
+                        <td>Nik Aina</td>
+                        <td><img src="Amir.jpg" id="img1" alt="nik" width="120"></td>
+                    </tr>
+    
+                    <tr>
+                        <td>Date Of Birth</td>
+                        <th colspan="2">02 September 2002</th>
+                    </tr>
+    
+                    <tr>
+                        <td>Religion</td>
+                        <th colspan="2">Malay</th>
+                    </tr>
+    
+                    <tr>
+                        <td>Race</td>
+                        <th colspan="2">Islam</th>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="4">Address</th>
+                        <td>Street</td>
+                        <td>Jln Jaya Setia</td>
+                    </tr>
+                    <tr>
+                        <td>Town</td>
+                        <td>Kota Bharu</td>
+                    </tr>
+                    <tr>
+                        <td>State</td>
+                        <td>Kelantan</td>
+                    </tr>
+                    
+                    <tr>
+                        <tr>
+                            <th rowspan="3">Contact</th>
+                            <td>Mobile Phone</td>
+                            <td>0199965290</td>
+                        </tr>
+                        <tr>
+                            <td>Social Media</td>
+                            <td>nknraina</td>
+                        </tr>
+                        <tr>
+                            <td>Website</td>
+                            <td>
+                                <a href="https://www.tiktok.com/@grimjow90">Instagram</a>
+
+                            </td>
+                        </tr>
+                    </tr>
+                    
+                    <tr>
+                        <td>Course and Institution</td>
+                        <th colspan="3">
+                            <ul>
+                                <li>Bachelor of Information Technology</li>
+                                <li>University Tun Hussein Onn</li>
+                            </ul> 
+                        </th>
+                    </tr>
+    
+                    <tr>
+                        <td>Programming Skills</td>
+                        <th colspan="3">Php, C, C++, Java, Python, Html</th>
+                    </tr>
+    
+                    <tr>
+                        <td>Hobbies</td>
+                        <th colspan="3">Playing Badminton</th>
+                    </tr>
+    
+                    <tr>
+                        <td>2025 Wishlist</td>
+                        <th colspan="3">
+                            <ul>
+                                <li>Success for study</li>
+                                <li>Buy Car</li>
+                            </ul>
+                        </th>
+                    </tr>
+                </table>
+            </center>
+        </body>
+    </html>
 </html>
